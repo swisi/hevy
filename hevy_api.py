@@ -64,6 +64,8 @@ class HevyClient:
                 print(f"[ERROR] {e}")
                 break
 
+        print(all_workouts)
+
         return {
             'total_workouts': len(all_workouts),
             'workouts': all_workouts
